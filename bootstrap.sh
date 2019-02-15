@@ -9,7 +9,7 @@ pip install jupyter
 pip install requests
 pip install beautifulsoup4
 cd /vagrant
-# rm /home/vagrant/.jupyter/jupyter_notebook_config.py
-# cp jupyter_notebook_config.py /home/vagrant/.jupyter/
+mkdir /home/vagrant/.jupyter
+cp jupyter_notebook_config.py /home/vagrant/.jupyter/
 jupyter notebook --ip=0.0.0.0 --allow-root ./taller_notebook.ipynb
 
